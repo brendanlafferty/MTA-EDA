@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # dates = ['200627', '200620']
     # df = get_mta_data(dates)
     stations = get_station_info()
-    # stations['Census Block'] = fai.poll_fcc_series(stations[['GTFS Latitude', 'GTFS Longitude']])
+    stations['Census Block'] = fai.poll_fcc_series(stations[['GTFS Latitude', 'GTFS Longitude']])
     stations['Census Tract'] = stations['Census Block'].apply(convert_block_to_tract)
     stations.to_csv('../data/stations_with_tract_id.csv', index=False)
 
