@@ -105,7 +105,7 @@ def plot_poverty_data(poverty, lons, lats, filepath='../data/heatmap_poverty.svg
     resolution = poverty.shape[0]
     extra = np.zeros([int(resolution*(scale_factor-1)/2), resolution])
     poverty_clean = np.nan_to_num(poverty)
-    poverty_wide = np.np.concatenate([extra, poverty_clean.T, extra])
+    poverty_wide = np.concatenate([extra, poverty_clean.T, extra])
     fig = plt.figure()
     c_map = plt.imshow(poverty_wide, aspect='auto')
     plt.gca().invert_yaxis()
@@ -120,7 +120,7 @@ def plot_poverty_data(poverty, lons, lats, filepath='../data/heatmap_poverty.svg
 
 if __name__ == '__main__':
     census_loc_df, lons, lats = get_and_filter_tract_locations()
-    census_tract_ids = get_census_tract_ids(lons, lats)
+    census_tract_ids = get_census_tract_ids()
     census_poverty_dict = make_census_poverty_dict()
     poverty_data = census_tract_to_poverty_data(census_tract_ids, census_poverty_dict)
     plot_poverty_data(poverty_data, lons, lats)
