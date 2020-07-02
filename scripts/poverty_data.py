@@ -1,19 +1,16 @@
-import pickle
-
-import fcc_api_interface as fai
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
+import numpy as np
+import fcc_api_interface as fai
 from mta_station_data import convert_block_to_tract
+import pickle
 
 x_size = 20
 y_size = 20
 
-census_loc_data = pd.read_csv('./data/census_block_loc.csv')
-# census_loc_data = pd.read_csv('../data/census_block_loc.csv')
+census_loc_data = pd.read_csv('../data/census_block_loc.csv')
 census_loc_data_ny = census_loc_data[census_loc_data['State']=='NY']
 
-# census_data = pd.read_csv('./data/nyc_census_tracts.csv')
 census_data = pd.read_csv('../data/nyc_census_tracts.csv')
 
 # census_data_list = census_data[['CensusTract', 'Poverty']].to_dict(orient='records')
@@ -51,9 +48,4 @@ poverty_clean = np.nan_to_num(poverty)
 c_map = plt.imshow(poverty_clean)
 c_map.set_cmap('hot')
 plt.colorbar()
-
 plt.savefig('../data/heatmap_poverty.svg')
-
-import seaborn as sns
-plt.figure(figsize=(20,5))
-sns.heatmap(data = poverty_clean, annot = True)
