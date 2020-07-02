@@ -62,7 +62,9 @@ def download_census_tract_id(lons: list, lats: list, resolution: int):
         for ind_2 in range(resolution):
             lat = lats[ind_2]
             lon = lons[ind_1]
+            print('Getting Tract ID for:\n Lon #{3}: {0}\nLat #{2}:{1}'.format(lon, lat, ind_1, ind_2))
             census_tract = msd.convert_block_to_tract(fai.poll_fcc_api(lat, lon))
+            print('Retrieved ID:\n{}\n'.format(census_tract))
             tract_ids[ind_1][ind_2] = census_tract
     return tract_ids
 
