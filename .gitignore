@@ -10,3 +10,7 @@
 #   git rm -r .ipynb_checkpoints/
 #
 
+# ignore outputs
+*.png
+*.svg
+.DS_Store
