@@ -31,6 +31,6 @@ def convert_block_to_tract(block_id):
 
 if __name__ == '__main__':
     stations = get_station_info()
-    stations['Census Block'] = fai.poll_fcc_series(stations[['GTFS Latitude', 'GTFS Longitude']])
+    stations['Census Block'] = fai.poll_fcc_from_df(stations[['GTFS Latitude', 'GTFS Longitude']])
     stations['Census Tract'] = stations['Census Block'].apply(convert_block_to_tract)
     stations.to_csv('../data/stations_with_tract_id.csv', index=False)
