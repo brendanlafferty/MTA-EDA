@@ -12,7 +12,10 @@ def poll_fcc_api(lat: float, lon: float):
     params = {'lat': str(lat), 'lon': str(lon)}
     response = requests.get(url=url, params=params)
     data_dict = response.json()
-    block_id = data_dict['results'][0]['block_fips']
+    try:
+        block_id = int(data_dict['results'][0]['block_fips'])
+    except IndexError:
+        block_id = 0
     return block_id
 
 
