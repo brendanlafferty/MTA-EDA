@@ -1,5 +1,7 @@
-import pandas as pd
 import fcc_api_interface as fai
+import pandas as pd
+
+
 # import matplotlib.pyplot as plt
 
 
