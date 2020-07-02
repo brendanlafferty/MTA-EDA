@@ -1,3 +1,7 @@
+"""
+Module interfaces with the FCC api that takes lat and long data and return census block ids
+documentation for the api is found here: https://geo.fcc.gov/api/census/
+"""
 import requests
 
 
@@ -26,8 +30,8 @@ def poll_fcc_api(lat: float, lon: float):
 
 def poll_fcc_from_df(lat_lon_df):
     """
-    Takes a data frame where the first column is latitudes and the second column is longitudes and returns a list of
-    the block ids
+    Takes a data frame where the first column is latitudes and the second column is longitudes
+    and returns a list of the block ids
     :param lat_lon_df: data frame where columns are: latitude, longitude
     :return: list of corresponding block_ids
     """

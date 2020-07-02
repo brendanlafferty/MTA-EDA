@@ -1,5 +1,6 @@
 """
 This module takes station location data and maps them to census tracts
+Station Data taken from 'http://web.mta.info/developers/data/nyct/subway/Stations.csv'
 """
 import pandas as pd
 import fcc_api_interface as fai

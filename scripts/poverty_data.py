@@ -1,6 +1,6 @@
 """
 This is a module that generates a heatmap of poverty rates in census blocks across new york city
-
+Datasets come from https://www.kaggle.com/muonneutrino/new-york-city-census-data
 """
 import pickle
 import pandas as pd
