@@ -1,4 +1,4 @@
-# Scrips
+# Scripts
 ## Description of Files
 ### 1. *fcc_api_interface.py*
 this scripts manages the get request to the FCC api that maps latitude and longitude coordinates to census block ids.
@@ -22,7 +22,7 @@ from the api are pickled in a numpy array to save time
     census_tracts_small is a 10x10 array of census tract ids
 3. Plots:
 
-Map of poverty rate                          | Map of Total Population in Poverty
+Map of Poverty Rate                          | Map of Total Population in Poverty
 :-------------------------------------------:|:-----------------------------------:
 ![poverty rate](../data/heatmap_poverty.svg) | ![total population in poverty](../data/heatmap_poverty_pop.svg)
 

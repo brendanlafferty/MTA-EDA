@@ -12,5 +12,7 @@
 
 # ignore outputs
 *.png
-*.svg
 .idea
+*.svg
+!heatmap_poverty.svg
+!heatmap_poverty_pop.svg
