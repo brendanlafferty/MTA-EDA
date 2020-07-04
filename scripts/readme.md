@@ -10,7 +10,7 @@ this script uses the *fcc_api_interface.py* to get census block ids and census t
 handles generating heat maps of poverty data (poverty rate and total population below the poverty line) for all census 
 blocks in NYC. This is achieved through creating an array of the span of the extrema in latitude and longitude for the 
 census tracts in NYC.  Each id is then polled to the FCC api to get census tract ids then the corresponding poverty 
-data is mapped to the array and plotted.
+data is mapped to the array and plotted.  The polling of the fcc api can take a considerable amount of time.
 
 ## Outputs
 
