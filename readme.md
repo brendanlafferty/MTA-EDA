@@ -43,6 +43,7 @@ Data Team
 - Subway Traffic:
   - Compare subway stations by traffic by day
   - Analyze distribution of traffic by day and time for each subway station
+  - Compare entries vs exits by time
 - Boxplots:
   - Show distribution of traffic by day by station
 
