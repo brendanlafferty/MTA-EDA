@@ -136,9 +136,9 @@ def plot_poverty_rate_data(poverty_rate, lons, lats, filepath='../data/heatmap_p
 
     # Need to keep the resolution up if not svg
     if filepath.endswith('.svg'):
-        plt.savefig(filepath)
+        plt.savefig(filepath, transparent=True)
     else:
-        plt.savefig(filepath, dpi=300)
+        plt.savefig(filepath, dpi=300, transparent=True)
 
 
 def plot_total_poverty_data(poverty_pop, lons, lats, filepath='../data/heatmap_poverty_pop.svg'):
@@ -175,9 +175,9 @@ def plot_total_poverty_data(poverty_pop, lons, lats, filepath='../data/heatmap_p
 
     # Need to keep the resolution up if not svg
     if filepath.endswith('.svg'):
-        plt.savefig(filepath)
+        plt.savefig(filepath, transparent=True)
     else:
-        plt.savefig(filepath, dpi=300)
+        plt.savefig(filepath, dpi=300, transparent=True)
 
 
 if __name__ == '__main__':
