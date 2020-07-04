@@ -27,6 +27,7 @@ Data Team
 - Identify stations of interest to subset the subway turnstile data
   - Determined top stations based on total population below poverty for each census tract
 - Merge subway turnstile data with stations_with_census information
+  - Used Fuzzywuzzy to help with merging because names of stations inconsistent between the two files
   - Adds latitude, longitude, census block, census tract, census information (e.g. poverty)
 - Clean subway turnstile data
   - Created Data Fields: Instantaneous Entries and Exits (instead of cumulative), Hours between readings
@@ -44,17 +45,18 @@ Data Team
 |------------|------|-----|----|
 |NYC Census Tracts | Kaggle | https://www.kaggle.com/muonneutrino/new-york-city-census-data?select=nyc_census_tracts.csv | 2015 ACS data estimates for each census tract in New York city, includes demographic info (e.g. poverty)|
 |NYC Census Blocks | Kaggle | https://www.kaggle.com/muonneutrino/new-york-city-census-data?select=census_block_loc.csv | Maps census blocks to latitude and longitude |
-|Subway Station Data | MTA | insert Link | Maps stations with latitude and longitude |
-|Subway Turnstile Data | MTA |insert Link | NYC MTA turnstile data with entries and exits, for 7/6/2019-10/4/2019|
+|Subway Station Data | MTA | http://web.mta.info/developers/data/nyct/subway/Stations.csv | Station information with latitude and longitude |
+|Subway Turnstile Data | MTA | http://web.mta.info/developers/turnstile.html | NYC MTA turnstile data with entries and exits, for 7/6/2019-10/4/2019|
 
 
 ## Technologies Used
 * Jupyter Notebook
 * Python
-* Pandas
-* Numpy
-* Matplotlib
-* Seaborn
-* Fuzzywuzzy
-* FCC API
+* Libraries
+  * Pandas
+  * Numpy
+  * Matplotlib
+  * Seaborn
+  * Fuzzywuzzy
+* FCC API: https://geo.fcc.gov/api/census/
 
