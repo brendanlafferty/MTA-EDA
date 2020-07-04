@@ -1,6 +1,6 @@
 # This is a group project that is part of the Metis Data Science Bootcamp
 
-##Members:
+## Members:
 + Jung-a
 + Allen
 + Cianan
