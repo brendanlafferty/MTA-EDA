@@ -30,14 +30,26 @@ Data Team
   - Used Fuzzywuzzy to help with merging because names of stations inconsistent between the two files
   - Adds latitude, longitude, census block, census tract, census information (e.g. poverty)
 - Clean subway turnstile data
-  - Created Data Fields: Instantaneous Entries and Exits (instead of cumulative), Hours between readings
+  - Created Data Fields for analysis: Diff Entries and Exits (instantaneous instead of cumulative), Hours between readings, Day of week, Per Hour entries and exits
+  - Accounting for irregularities:
+    - Remove negative values for instantaneous entries/exits
+    - Remove non-standard time windows. This is generally for those not in 4 hour increments between readings.
+    - Remove outliers for traffic (after comparing median data with and without ridership, determined it is reasonable to remove)
   
 **3. Data Analysis**
-- NEED TO ADD
+- Identifying Stations:
+  - NYC Heat Map for Poverty Level by census tracts
+  - Table of top subway stations based on total population under poverty per census tract
+- Subway Traffic:
+  - Compare subway stations by traffic by day
+  - Analyze distribution of traffic by day and time for each subway station
+- Boxplots:
+  - Show distribution of traffic by day by station
 
+## Deliverables - TO UPDATE
+- Placeholder for Code
+- Placeholder for slides
 
-## Deliverables
-- NEED TO ADD
 
 ## Data Sources
 
