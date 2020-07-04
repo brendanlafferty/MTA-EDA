@@ -21,3 +21,15 @@ This directory contains both raw data sources and outputs.
 heatmap_poverty.svg                  | heatmap_poverty_pop.svg 
 :-----------------------------------:|:-----------------------------------:
 ![poverty rate](heatmap_poverty.svg) | ![total population in poverty](heatmap_poverty_pop.svg)
+
+
+
+Heatmaps                              |  barcharts
+:------------------------------------:|:--------------------------------------------:
+![heatmap](East_Broadway_heatmap.png) | ![barchart](East_Broadway_median_hourly.png)
+:------------------------------------:|:--------------------------------------------:
+![heatmap](103rd_Street_heatmap.png) | ![barchart](103rd_Street_median_hourly.png)
+:------------------------------------:|:--------------------------------------------:
+![heatmap](Junius_Street_heatmap.png) | ![barchart](Junius_Street_median_hourly.png)
+:------------------------------------:|:--------------------------------------------:
+![heatmap](Livonia_Avenue_heatmap.png) | ![barchart](Livonia_Avenue_median_hourly.png)
