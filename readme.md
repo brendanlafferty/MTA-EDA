@@ -1,12 +1,12 @@
 # This is a group project that is part of the Metis Data Science Bootcamp
 
 ## Members:
-+ Jung-a
-+ Allen
-+ Cianan
-+ Brendan
++ Jung-A Kim
++ Allen Chen
++ Cianan Murphy
++ Brendan Lafferty
 
-## Propasal
+## Proposal
 Dear political action group,\
 With the election season coming up, we understand you may be interested in developing a strategy for registering voters.
 
@@ -16,3 +16,25 @@ Leveraging MTA data, we can identify the time and location of high traffic areas
 
 Regards,\
 Data Team
+
+## Methodologies
+**1. Obtain data
+
+
+
+## Deliverables
+
+## Files
+
+## Data Sources
+
+## Data Files
+
+## Technologies Used
+* Jupyter Notebook
+* Python
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+
