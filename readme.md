@@ -7,7 +7,7 @@
 + Brendan Lafferty
 
 ## Proposal
-Dear political action group,\
+Dear Reaching Up Reaching Out,\
 With the election season coming up, we understand you may be interested in developing a strategy for registering voters.
 
 It may be efficient for a team of volunteers to target locations that have high foot traffic. For example, the subway stations in New York.
@@ -47,9 +47,14 @@ Data Team
 - Boxplots:
   - Show distribution of traffic by day by station
 
-## Deliverables - TO UPDATE
-- Placeholder for Code
-- Placeholder for slides
+## Deliverables
+- [Presentation - TO UPDATE WITH LINK]
+- [Jupyter Notebook for MTA data prep](01-mta-project1.ipynb)
+- [Jupyter Notebook for Station bar charts and heatmap](Bar_heat_maps.ipynb)
+- [Scripts for additional code](docs/scripts)
+  - [FCC API Interface](docs/scripts/fcc_api_interface.py)
+  - [MTA Station data](docs/scripts/mta_station_data.py)
+  - [Poverty Plotting](docs/scripts/poverty_plotting.py)
 
 
 ## Data Sources
@@ -57,10 +62,10 @@ Data Team
 |Description|Source|Link|Notes|
 |------------|------|-----|----|
 |NYC Census Tracts | Kaggle | https://www.kaggle.com/muonneutrino/new-york-city-census-data?select=nyc_census_tracts.csv | 2015 ACS data estimates for each census tract in New York city, includes demographic info (e.g. poverty)|
-|NYC Census Blocks | Kaggle | https://www.kaggle.com/muonneutrino/new-york-city-census-data?select=census_block_loc.csv | Maps census blocks to latitude and longitude |
+|NYC Census Blocks | Kaggle | https://www.kaggle.com/muonneutrino/new-york-city-census-data?select=census_block_loc.csv | Maps census tracts to latitude and longitude |
 |Subway Station Data | MTA | http://web.mta.info/developers/data/nyct/subway/Stations.csv | Station information with latitude and longitude |
 |Subway Turnstile Data | MTA | http://web.mta.info/developers/turnstile.html | NYC MTA turnstile data with entries and exits, for 7/6/2019-10/4/2019|
-
+|FCC Area Api | FCC | https://geo.fcc.gov/api/census/ | Returns census blocks for given coordinates
 
 ## Technologies Used
 * Jupyter Notebook
