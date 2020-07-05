@@ -47,9 +47,14 @@ Data Team
 - Boxplots:
   - Show distribution of traffic by day by station
 
-## Deliverables - TO UPDATE
-- Placeholder for Code
-- Placeholder for slides
+## Deliverables
+- [Presentation - TO UPDATE WITH LINK]
+- [Jupyter Notebook for MTA data prep](01-mta-project1.ipynb)
+- [Jupyter Notebook for Station bar charts and heatmap](Bar_heat_maps.ipynb)
+- [Scripts for additional code](docs/scripts)
+  - [FCC API Interface](docs/scripts/fcc_api_interface.py)
+  - [MTA Station data](docs/scripts/mta_station_data.py)
+  - [Poverty Plotting](docs/scripts/poverty_plotting.py)
 
 
 ## Data Sources
