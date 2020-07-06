@@ -48,7 +48,7 @@ Data Team
   - Show distribution of traffic by day by station
 
 ## Deliverables
-- [Presentation](MTA_voter_registration.ipynb)
+- [Presentation](MTA_voter_registration.pdf)
 - [Jupyter Notebook for MTA data prep](01-mta-project1.ipynb)
 - [Jupyter Notebook for Station bar charts and heatmap](Bar_heat_maps.ipynb)
 - [Scripts for additional code](docs/scripts)
