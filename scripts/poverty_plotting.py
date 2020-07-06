@@ -75,7 +75,8 @@ def census_tract_to_poverty_data(census_tract_array: np.array, poverty_data_dict
     """
     takes an array census tract id and returns an array of the same size with poverty data of that census tract
     :param census_tract_array: an array of census tract ids
-    :return:
+    :param poverty_data_dict: dictionary mapping of {census tract: poverty data}
+    :return: an array of poverty data
     """
     size_1, size_2 = np.shape(census_tract_array)
     poverty_data = np.zeros([size_1, size_2])

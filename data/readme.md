@@ -16,6 +16,8 @@ This directory contains both raw data sources and outputs.
     see [mta_station_data.py](../scripts/readme.md#2-mta_station_datapy)
     census_tracts.pkl is 100 x 100 px
     census_tracts_small.pxl is 10 x 10 px 
+* *final_df.pkl*
+    clean data output from [MTA-project.ipynb](../MTA-project1.ipynb)
 * *plots*
 
 heatmap_poverty.svg                  | heatmap_poverty_pop.svg 
@@ -26,7 +28,11 @@ heatmap_poverty.svg                  | heatmap_poverty_pop.svg
 
 Heatmaps                               |  barcharts
 :-------------------------------------:|:--------------------------------------------:
+East_Broadway_heatmap.png              | East_Broadway_median_hourly.png
 ![heatmap](East_Broadway_heatmap.png)  | ![barchart](East_Broadway_median_hourly.png)
+103rd_Street_heatmap.png               | 103rd_Street_median_hourly.png
 ![heatmap](103rd_Street_heatmap.png)   | ![barchart](103rd_Street_median_hourly.png)
+Junius_Street_heatmap.png              | Junius_Street_median_hourly.png 
 ![heatmap](Junius_Street_heatmap.png)  | ![barchart](Junius_Street_median_hourly.png)
+Livonia_Avenue_heatmap.png             | Livonia_Avenue_median_hourly.png
 ![heatmap](Livonia_Avenue_heatmap.png) | ![barchart](Livonia_Avenue_median_hourly.png)
