@@ -1,10 +1,10 @@
 # This is a group project that is part of the Metis Data Science Bootcamp
 
 ## Members:
-+ Jung-A Kim
-+ Allen Chen
-+ Cianan Murphy
-+ Brendan Lafferty
++ [Jung-A Kim](https://github.com/jung-akim)
++ [Allen Chen](https://github.com/mrallenchen)
++ [Cianan Murphy](https://github.com/Cianan-M)
++ [Brendan Lafferty](https://github.com/brendanlafferty)
 
 ## Proposal
 Dear Reaching Up Reaching Out,\
